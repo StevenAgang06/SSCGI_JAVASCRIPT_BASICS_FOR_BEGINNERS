@@ -7,3 +7,10 @@ b = c;
 
 console.log(a);
 console.log(b);
+
+const person = {
+  name: "Mosh",
+  age: 12,
+};
+
+for (let key in person) console.log(person[key]);
