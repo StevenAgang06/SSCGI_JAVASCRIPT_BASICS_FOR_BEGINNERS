@@ -5,4 +5,4 @@ function sum(limit) {
   }
   return sum;
 }
-console.log(sum(12));
+console.log(sum(10));
