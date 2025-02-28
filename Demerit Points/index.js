@@ -7,6 +7,7 @@ function checkSpeed(speed) {
 
   let points = (speed - 70) / 5;
   points = Math.floor(points);
+
   if (points > 0 && points < 12) return `Points: ${points}`;
   if (points > 11) return "License Suspended";
 
