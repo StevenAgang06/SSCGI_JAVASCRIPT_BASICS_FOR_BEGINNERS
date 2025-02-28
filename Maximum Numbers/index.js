@@ -1,5 +1,5 @@
-let a = 10;
-let b = 11;
+function max_num(a, b) {
+  return a > b ? a : b;
+}
 
-let max_num = a > b ? a : b;
-console.log(max_num);
+console.log(max_num(10, 11));
