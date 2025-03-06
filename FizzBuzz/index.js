@@ -11,4 +11,4 @@ function fizzBuzz(input) {
   }
 }
 
-console.log(fizzBuzz());
+console.log(fizzBuzz(15));
